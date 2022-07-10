@@ -1,5 +1,13 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+//Fonts
+@import url(../fonts/Roboto/stylesheet.css);
+
+//Variables
+@import './variables';
+@import './mixins';
+@import './spacing';
+
+//Components
+// @import './components/';
+
+//Pages
+@import './pages/home.scss';
